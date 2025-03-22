@@ -209,7 +209,6 @@ if __name__ == "__main__":
         outputs=gr.Textbox(label="Recommended Songs", lines=10),
         title="Spotify Song Recommender",
         description="Enter a track number (from 1 to the total number of tracks) to get similar song recommendations based on audio features, genre, and artist similarity.",
-        examples=[[1, 5]],  # Default example with track number 1
         allow_flagging="never"
     )
     
